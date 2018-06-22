@@ -1,0 +1,60 @@
+main-container {
+  padding-top: 100px;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+header {
+	position: relative;
+}
+
+.slogan, .logo {
+	
+	
+}
+
+.slogan {
+	text-align: right;
+	position: absolute;
+	right: 20px;
+	top:20px;
+	font-family: 'Lora', serif;
+	color: steelblue;
+}
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav {
+	margin-top: 10px;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   font-family: 'Lora', serif;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
